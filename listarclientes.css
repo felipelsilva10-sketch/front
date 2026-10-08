@@ -1,0 +1,163 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+ 
+body { 
+    min-height: 100vh; 
+} 
+ 
+.header { 
+    height: 70px; 
+    padding: 10px 20px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+ 
+.header-brand { 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    text-decoration: none; 
+} 
+ 
+.header-brand h1 { 
+    font-family: 'Bruno Ace', sans-serif; 
+    font-size: 24px; 
+    color: white; 
+} 
+ 
+.logo { 
+    width: 50px; 
+} 
+ 
+.header-user { 
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+} 
+ 
+.header-user p { 
+    font-family: 'Bruno Ace', sans-serif; 
+    color: white; 
+} 
+ 
+.header-user a { 
+    color: white; 
+    text-decoration: none; 
+} 
+ 
+.header-user i { 
+    font-size: 28px; 
+} 
+ 
+.header-user i:hover { 
+    color: #6abc54; 
+} 
+ 
+.menu-lateral { 
+    position: fixed; 
+    top: 70px; 
+    bottom: 0; 
+    left: 0; 
+    width: 300px; 
+    background-color: rgba(156, 156, 156, 0.85); 
+    padding: 10px; 
+    overflow-y: auto; 
+} 
+ 
+.menu-lista { 
+    width: 250px; 
+    list-style: none; 
+} 
+ 
+.menu-lista li { 
+    width: 250px; 
+    margin-bottom: 5px; 
+    padding: 10px; 
+    border: 1px solid #2b3c54; 
+    border-radius: 5px; 
+    background-color: rgba(156, 156, 156, 0.75); 
+} 
+ 
+.menu-lista a { 
+    display: flex; 
+    align-items: center; 
+    gap: 5px; 
+    font-family: 'Bruno Ace', sans-serif; 
+    color: white; 
+    text-decoration: none; 
+} 
+ 
+.menu-lista a:hover { 
+    color: #6abc54; 
+} 
+ 
+.menu-lista i { 
+    width: 20px; 
+    margin-right: 5px; 
+} 
+ 
+.menu-lista li:hover i { 
+    color: #6abc54; 
+} 
+ 
+.conteudo { 
+    margin-left: 300px; 
+    padding: 30px; 
+} 
+ 
+.conteudo section { 
+    height: 500px; 
+    padding: 30px; 
+} 
+ 
+.main { 
+    height: 92.6vh; 
+    background-image: url('image\ \(12\).png'); 
+    background-size: cover; 
+    background-position: center; 
+    font-family: "Bruno Ace", sans-serif; 
+    color: white; 
+} 
+ 
+.conteudo-principal { 
+    position: absolute; 
+    top: 50%; 
+    left: 60%; 
+    transform: translateX(-50%) translateY(-50%); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background-color: #9c9c9c; 
+    width: 110vh; 
+    height: 85vh; 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin-top: 20px; 
+    font-family: 'Bruno Ace', sans-serif; 
+    color: white; 
+    margin-bottom: 20px; 
+} 
+ 
+.tabela-clientes { 
+    border: #ffffff 1px solid; 
+    color: white; 
+    width: 100%; 
+    height: 100%; 
+    max-width: 100%; 
+    max-height: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+    text-align: center; 
+    font-family: 'Bruno Ace', sans-serif; 
+    font-size: 12px; 
+} 
+ 
+.tabela-clientes th, 
+.tabela-clientes td { 
+    padding: 10px; 
+}

@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+
+    height: 70px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.header-brand h1 {
+    font-family: 'Bruno Ace', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+.logo {
+    width: 50px;
+}
+
+.header-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-user p {
+    font-family: 'Bruno Ace', sans-serif;
+    color: white;
+}
+
+.header-user a {
+    color: white;
+    text-decoration: none;
+}
+
+.header-user i {
+    font-size: 28px;
+}
+
+.header-user a:hover i {
+    color: #6abc54;
+}
+
+
+.menu-lateral {
+    position: fixed;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+
+    width: 300px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+}
+
+.menu-lista {
+    list-style: none;
+}
+
+.menu-lista li {
+    margin-bottom: 5px;
+    padding: 10px;
+
+    border: 1px solid #2b3c54;
+    border-radius: 5px;
+}
+
+.menu-lista a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'Bruno Ace', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-lista i {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.menu-lista a:hover,.menu-lista li:hover i {
+    color: #6abc54;
+}
+
+
+.main {
+    margin-top: 70px;
+    margin-left: 300px;
+    padding: 30px;
+}
+
+.conteudo-principal h2 {
+    margin-bottom: 10px;
+}
+
+.card-agendamentos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.cards {
+    width: 220px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.cards h3 {
+    margin-bottom: 8px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ricardo's Motors | Página Inicial</title>
+    <link rel="stylesheet" href="paginainicial.css">
+    <link rel="shortcut icon" href="unnamed.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="index.html" class="header-brand">
+            <img src="unnamed.png" alt="Logo da Ricardo's Motors" class="logo">
+            <h1>Ricardo's Motors</h1>
+        </a>
+
+        <div class="header-user">
+            <p>Olá, usuário!</p>
+            <a href="usuario.html" aria-label="Área do usuário">
+                <i class="fa-solid fa-circle-user"></i>
+            </a>
+        </div>
+        <section class="menu-lateral">
+            <nav>
+                <ul class="menu-lista">
+                    <li><a href="paginainicial.html"><i class="fa-solid fa-house"></i>Página Inicial</a></li>
+                    <li><a href="cliente.html"><i class="fa-solid fa-user"></i>Cadastro Clientes</a></li>
+                    <li><a href="veiculo.html"><i class="fa-solid fa-car"></i>Cadastro Veículos</a></li>
+                    <li><a href="agendamento.html"><i class="fa-solid fa-calendar"></i>Agendamentos</a></li>
+                    <li><a href="listagem-clientes.html"><i class="fa-solid fa-users"></i>Listar clientes</a></li>
+                    <li><a href="listagem-agendamentos.html"><i class="fa-solid fa-calendar-days"></i>Listar
+                            agendamentos</a></li>
+                    <li><a href="index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i>Sair</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main class="main">
+        <section class="conteudo-principal">
+            <h2>Agendamentos de Hoje</h2>
+            <p class="saudacao">
+                Olá, <span id="nome-usuario">Usuário</span>! Esses são os agendamentos para hoje.
+            </p>
+
+            <div class="card-agendamentos">
+                <article class="cards">
+                    <h3><time datetime="10:00">10:00</time></h3>
+                    <p class="cliente">Cliente 1</p>
+                    <p class="veiculo">Veículo 1</p>
+                </article>
+
+                <article class="cards">
+                    <h3><time datetime="11:30">11:30</time></h3>
+                    <p class="cliente">Cliente 2</p>
+                    <p class="veiculo">Veículo 2</p>
+                </article>
+
+                <article class="cards">
+                    <h3><time datetime="14:00">14:00</time></h3>
+                    <p class="cliente">Cliente 3</p>
+                    <p class="veiculo">Veículo 3</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+
+
+</body>
+
+</html>
